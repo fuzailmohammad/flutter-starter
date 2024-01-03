@@ -1,0 +1,126 @@
+Folder PATH listing
+Volume serial number is 3937-C0B0
+D:.
+¦   g.txt
+¦   main.dart
+¦   
++---app
+¦   ¦   app.dart
+¦   ¦   app_binding.dart
+¦   ¦   app_controller.dart
+¦   ¦   
+¦   +---data
+¦   ¦   +---models
+¦   ¦   ¦   +---dto
+¦   ¦   ¦   ¦       response.dart
+¦   ¦   ¦   ¦       user.dart
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---request
+¦   ¦   ¦   ¦       auth_request.dart
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---response
+¦   ¦   ¦           app_config_response.dart
+¦   ¦   ¦           error_response.dart
+¦   ¦   ¦           user_response.dart
+¦   ¦   ¦           
+¦   ¦   +---network
+¦   ¦   ¦       network_requester.dart
+¦   ¦   ¦       
+¦   ¦   +---repository
+¦   ¦   ¦       config_repository.dart
+¦   ¦   ¦       user_repository.dart
+¦   ¦   ¦       
+¦   ¦   +---values
+¦   ¦           constants.dart
+¦   ¦           env.dart
+¦   ¦           images.dart
+¦   ¦           strings.dart
+¦   ¦           urls.dart
+¦   ¦           
+¦   +---modules
+¦   ¦   +---auth
+¦   ¦   ¦   +---login
+¦   ¦   ¦   ¦   +---bindings
+¦   ¦   ¦   ¦   ¦       auth_login_binding.dart
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---controllers
+¦   ¦   ¦   ¦   ¦       auth_login_controller.dart
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---views
+¦   ¦   ¦   ¦           auth_login_view.dart
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---signup
+¦   ¦   ¦   ¦   +---bindings
+¦   ¦   ¦   ¦   ¦       auth_signup_binding.dart
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---controllers
+¦   ¦   ¦   ¦   ¦       auth_signup_controller.dart
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---views
+¦   ¦   ¦   ¦           auth_signup_view.dart
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---verify-otp
+¦   ¦   ¦       +---bindings
+¦   ¦   ¦       ¦       auth_verify_otp_binding.dart
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---controllers
+¦   ¦   ¦       ¦       auth_verify_otp_controller.dart
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---views
+¦   ¦   ¦               auth_verify_otp_view.dart
+¦   ¦   ¦               
+¦   ¦   +---home
+¦   ¦   ¦   +---bindings
+¦   ¦   ¦   ¦       home_binding.dart
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---controllers
+¦   ¦   ¦   ¦       home_controller.dart
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---views
+¦   ¦   ¦           home_view.dart
+¦   ¦   ¦           
+¦   ¦   +---splash
+¦   ¦       +---bindings
+¦   ¦       ¦       splash_binding.dart
+¦   ¦       ¦       
+¦   ¦       +---controllers
+¦   ¦       ¦       splash_controller.dart
+¦   ¦       ¦       
+¦   ¦       +---views
+¦   ¦               splash_view.dart
+¦   ¦               
+¦   +---routes
+¦   ¦       app_pages.dart
+¦   ¦       app_routes.dart
+¦   ¦       
+¦   +---theme
+¦           app_colors.dart
+¦           app_theme.dart
+¦           styles.dart
+¦           
++---base
+¦       base_controller.dart
+¦       base_repository.dart
+¦       
++---utils
+¦   +---helper
+¦   ¦       exception_handler.dart
+¦   ¦       text_field_wrapper.dart
+¦   ¦       validators.dart
+¦   ¦       
+¦   +---loading
+¦   ¦       loading_utils.dart
+¦   ¦       
+¦   +---storage
+¦           storage_utils.dart
+¦           
++---widgets
+    +---base
+    ¦       shimmer_widget.dart
+    ¦       
+    +---buttons
+    ¦       primary_filled_button.dart
+    ¦       
+    +---text_field
+            custom_text_field.dart
+            

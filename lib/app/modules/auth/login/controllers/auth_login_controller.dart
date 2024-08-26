@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:starter/app/data/repository/user_repository.dart';
+import 'package:starter/app/theme/app_colors.dart';
 import 'package:starter/base/base_controller.dart';
 import 'package:starter/utils/confetti/confetti.dart';
 import 'package:starter/utils/helper/text_field_wrapper.dart';
@@ -9,7 +10,7 @@ class AuthLoginController extends BaseController<UserRepository> {
 
   sendOTP() async {
     String mobile = mobileWrapper.controller.text.trim();
-    Confetti.show(Get.overlayContext!);
+    Confetti.showWithPrimary(Get.overlayContext!, AppColors.confetti);
     //   if (mobile.isValidPhone()) {
     //     mobileWrapper.errorText = Strings.empty;
     //   } else {
